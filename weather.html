@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <!-- Linking the external CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Reference to the CSS file -->
+</head>
+<body>
+    <!-- Main weather container -->
+    <div class="weather-container">
+        <h1>Weather Forecast</h1>
+        <!-- Input for ZIP code where the user enters their ZIP to fetch weather -->
+        <input type="text" id="zipcode" placeholder="Enter ZIP code" maxlength="5">
+        <!-- Button to trigger the weather fetch process -->
+        <button id="get-weather">Get Weather</button>
+        <!-- Paragraph to display location (optional, can be filled based on API response) -->
+        <p id="location"></p>
+        <!-- Icon to display the current weather condition (using Weather Icons library) -->
+        <i id="icon" class="wi"></i>
+        <!-- Paragraph to display the weather description -->
+        <p id="weather"></p>
+        <!-- Paragraph to display the temperature -->
+        <p id="temperature"></p>
+    </div>
+
+    <!-- Linking to the external JavaScript file where the API call and UI updates occur -->
+    <script src="script.js"></script>
+</body>
+</html>
