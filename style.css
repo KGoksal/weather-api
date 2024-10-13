@@ -1,0 +1,79 @@
+/* Basic styling for the body to center content */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+/* Container for weather info */
+.weather-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for better visibility */
+    padding: 2rem;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Styling the header */
+h1 {
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 1rem;
+}
+
+/* Location text styling */
+#location {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* Weather description and temperature styling */
+#weather, #temperature {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+/* Weather icon styling */
+#icon {
+    font-size: 5rem;
+    margin: 1rem 0;
+}
+
+/* ZIP code input field styling */
+#zipcode {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 120px;
+    margin-right: 10px;
+}
+
+/* "Get Weather" button styling */
+#get-weather {
+    background-color: #4CAF50; /* Green button background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; /* Rounded button corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+/* Button hover effect */
+#get-weather:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
