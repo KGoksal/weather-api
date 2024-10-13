@@ -2,6 +2,7 @@
 # Weather App
 
 ## Overview
+<img width="691" alt="Screenshot 2024-10-12 at 10 16 05 PM" src="https://github.com/user-attachments/assets/bc1e8cfe-6abe-45ef-b847-c796b4a8b2a6">
 
 The Weather App is a simple, user-friendly web application that allows users to check the current weather conditions based on their ZIP code. It leverages the OpenWeatherMap API to fetch and display real-time weather data, including temperature, weather descriptions, and icons. The application also dynamically changes the background color based on the current weather conditions for an enhanced user experience.
 
