@@ -24,6 +24,10 @@ The Weather App is a simple, user-friendly web application that allows users to 
 - **JavaScript**: Logic to fetch weather data from the API and manipulate the DOM.
 - **OpenWeatherMap API**: Service for obtaining real-time weather data.
 
+
+<img width="739" alt="Screenshot 2024-10-12 at 10 15 47 PM" src="https://github.com/user-attachments/assets/096b4f8a-ff4f-4335-9a00-bdc2734941d3">
+
+
 ## Getting Started
 
 1. **Clone the repository**:
