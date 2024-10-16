@@ -19,7 +19,7 @@ The Weather App is a simple, user-friendly web application that allows users to 
 
 ## Technologies Used
 
-- **HTML**: Structure of the web page.
+- **HTML**: Structure of the web page. 
 - **CSS**: Styling of the web page for an attractive user interface.
 - **JavaScript**: Logic to fetch weather data from the API and manipulate the DOM.
 - **OpenWeatherMap API**: Service for obtaining real-time weather data.
