@@ -1,5 +1,5 @@
 // OpenWeatherMap API configuration
-const API_KEY = 'a1d3818b8fe4ac136019b60d90658dfb';  // Your OpenWeatherMap API key
+const API_KEY = 'a1d3818b8fe4ac136019b60d90658dfb';  // OpenWeatherMap API key  
 const COUNTRY_CODE = 'us';  // Country code for the US
 const API_BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';  // Base URL for the API
 
