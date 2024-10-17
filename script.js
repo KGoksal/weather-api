@@ -9,7 +9,7 @@ const getWeatherElement = document.getElementById('get-weather');  // Button to 
 const iconElement = document.getElementById('icon');  // Element to display weather icon
 const temperatureElement = document.getElementById('temperature');  // Element to display temperature
 const zipcodeInput = document.getElementById('zipcode');  // Input field for ZIP code
-const locationElement = document.getElementById('location');  // Element to display city/location name
+const locationElement = document.getElementById('location');  // Element to display city/location name 
 
 // Mapping OpenWeatherMap icon codes to corresponding Weather Icons class names
 const weatherIcons = {
