@@ -12,13 +12,13 @@ const zipcodeInput = document.getElementById('zipcode');  // Input field for ZIP
 const locationElement = document.getElementById('location');  // Element to display city/location name  
 
 // Mapping OpenWeatherMap icon codes to corresponding Weather Icons class names
-const weatherIcons = {
-    '01d': 'wi-day-sunny',          // Clear day
-    '01n': 'wi-night-clear',        // Clear night
-    '02d': 'wi-day-cloudy',         // Partly cloudy day
-    '02n': 'wi-night-alt-cloudy',   // Partly cloudy night
-    '03d': 'wi-cloud',              // Scattered clouds (day)
-    '03n': 'wi-cloud',              // Scattered clouds (night)
+const weatherIcons = { 
+    '01d': 'wi-day-sunny',          // Clear day 
+    '01n': 'wi-night-clear',        // Clear night 
+    '02d': 'wi-day-cloudy',         // Partly cloudy day 
+    '02n': 'wi-night-alt-cloudy',   // Partly cloudy night 
+    '03d': 'wi-cloud',              // Scattered clouds (day) 
+    '03n': 'wi-cloud',              // Scattered clouds (night) 
     '04d': 'wi-cloudy',             // Broken clouds (day)
     '04n': 'wi-cloudy',             // Broken clouds (night)
     '09d': 'wi-showers',            // Shower rain (day)
