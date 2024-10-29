@@ -11,8 +11,8 @@ The Weather App is a simple, user-friendly web application that allows users to 
 
 - **Current Weather Data**: Displays temperature, weather description, and city name based on user-provided ZIP code.
 - **Dynamic Background**: Background color changes according to the weather conditions (e.g., sunny, cloudy, rainy).
-- **Weather Icons**: Uses weather icons to visually represent the current weather.
-- **Input Validation**: Validates user input to ensure a valid 5-digit ZIP code is entered.
+- **Weather Icons**: Uses weather icons to visually represent the current weather. 
+- **Input Validation**: Validates user input to ensure a valid 5-digit ZIP code is entered. 
 
 <img width="691" alt="Screenshot 2024-10-12 at 10 16 05 PM" src="https://github.com/user-attachments/assets/bc1e8cfe-6abe-45ef-b847-c796b4a8b2a6">
 
