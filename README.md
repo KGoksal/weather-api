@@ -16,7 +16,6 @@ The Weather App is a simple, user-friendly web application that allows users to 
 
 <img width="691" alt="Screenshot 2024-10-12 at 10 16 05 PM" src="https://github.com/user-attachments/assets/bc1e8cfe-6abe-45ef-b847-c796b4a8b2a6">
 
-
 ## Technologies Used 
 
 - **HTML**: Structure of the web page.  
